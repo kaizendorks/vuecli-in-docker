@@ -16,7 +16,7 @@ script:
 deploy:
   provider: script
   script:
-    - curl -X POST https://cloud.docker.com/api/build/v1/source/76b71e53-18c2-4c18-bc1a-0cfdceaf5fb4/trigger/dff74c74-aa36-4353-b964-a80e52d172fb/call/
+    - curl -X POST https://cloud.docker.com/api/build/v1/source/${SOURCE_ID}/trigger/${TRIGGER_ID}/call/
   skip_cleanup: true
   on:
     branch: master
