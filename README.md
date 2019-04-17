@@ -20,7 +20,7 @@ In order to use this image simply map your host workdir to src and use the Vue C
        kaizendorks/vue sh
 
        # Once the container starts you can run any vue cli commands:
-       /src $ vue create my app
+       /src $ vue create myapp
 
 1. The changes made inside the container's /src folder will also persist on your hhost machine.
 
