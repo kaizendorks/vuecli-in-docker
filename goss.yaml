@@ -58,8 +58,10 @@ command:
     - init [options] <template> <app-name>       generate a project from a remote
       template (legacy API, requires @vue/cli-init)
     - config [options] [value]                   inspect and modify the config
-    - 'upgrade [semverLevel]                      upgrade vue cli service / plugins
-      (default semverLevel: minor)'
+    - outdated [options]                         (experimental) check for outdated
+      vue cli service / plugins
+    - upgrade [options] [plugin-name]            (experimental) upgrade vue cli service
+      / plugins
     - info                                       print debugging information about
       your environment
     - Run vue <command> --help for detailed usage of given command.
